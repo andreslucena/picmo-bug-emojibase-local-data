@@ -1,5 +1,8 @@
 import { createPicker } from 'picmo';
 
+import emojiData from 'emojibase-data/es/data.json';
+import messages from 'emojibase-data/es/messages.json';
+
 document.addEventListener('DOMContentLoaded', () => {
   const rootElement = document.querySelector('#picker');
   const selectionContainer = document.querySelector('#selection-outer');
@@ -7,6 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const name = document.querySelector('#selection-name');
 
   const picker = createPicker({
+    emojiData,
+    messages,
     rootElement
   });
 

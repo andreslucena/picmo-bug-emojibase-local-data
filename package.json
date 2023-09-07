@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "@picmo/popup-picker": "^5.8.5",
+    "emojibase-data": "^15.0.0",
     "picmo": "^5.8.5"
   }
 }
