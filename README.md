@@ -2,8 +2,9 @@
 
 To check out this repository:
 
-1. Build the project
+1. Install dependencies and build the project
 ```shell
+npm install
 npm run build-inline
 cd dist/
 ```
